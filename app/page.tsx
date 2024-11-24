@@ -1,7 +1,12 @@
 import React from "react";
+import Home from "./components/Helper/Home/Home";
 
 const HomePage = () => {
-  return <div className="text-5xl">WEBDEV WARRIORS</div>;
+  return(
+    <div>
+      <Home/>
+    </div>
+  );
 };
 
 export default HomePage;
